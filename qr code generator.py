@@ -3,13 +3,12 @@ import pyqrcode
 window = Tk()
 
 window.title("QR Creator")
-
 window.geometry('350x200')
 lb  = Label(window, text="Enter URL/Message :-")
 lb.grid(column=0 , row=0)
 lbl = Label(window, text="")
-
 lbl.grid(column=0, row=3)
+
 
 txt = Entry(window,width=55)
 
